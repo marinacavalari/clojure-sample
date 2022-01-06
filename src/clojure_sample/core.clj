@@ -1,4 +1,5 @@
-(ns clojure-sample.core)
+(ns clojure-sample.core
+  (:require [databricks-sdk.core :as sdk]))
 
 (comment )
 (defn foo
